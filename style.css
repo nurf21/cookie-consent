@@ -12,7 +12,7 @@
   color: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   z-index: 1000;
   display: flex;
   flex-wrap: wrap;
@@ -38,4 +38,8 @@
 
 #accept-cookies:hover {
   background: #45a049;
+}
+
+.hidden {
+  display: none !important;
 }
